@@ -1,0 +1,7 @@
+wordpress/wp-config.php
+*.sql
+*.sql.gz
+.env
+.env.*
+wordpress/wp-content/uploads/
+.DS_Store
