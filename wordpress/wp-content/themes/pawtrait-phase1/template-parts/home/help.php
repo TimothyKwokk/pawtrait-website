@@ -1,0 +1,1 @@
+<section class="wrap quick-help" aria-label="Shopping information"><p>Good things to know before the first drop.</p><nav aria-label="Quick help"><?php foreach(['size-guide'=>'Find your fit ↗','delivery-returns'=>'Delivery & returns ↗','faqs'=>'Quick answers ↗'] as $slug=>$label) echo pt_link($slug,$label,'textlink'); ?></nav></section>

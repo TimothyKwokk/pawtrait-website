@@ -73,3 +73,5 @@ add_shortcode('pawtrait_designs',function(){
     foreach($terms as $term) $out.='<a class="filter" href="'.esc_url(add_query_arg('artwork',$term->slug,pt_url('shop-by-design'))).'">'.esc_html($term->name).'</a>';
     return $out.'</nav>';
 });
+
+require_once get_template_directory().'/inc/navigation.php';
